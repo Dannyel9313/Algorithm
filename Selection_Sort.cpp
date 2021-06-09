@@ -3,6 +3,8 @@
 #include <limits.h>
 
 
+// Time complexity is 0(n2) for selection sort
+
 // Selection sort in ascending order
 void SortInAscendingOrder(std::vector<int>& vec)
 {

@@ -2,6 +2,8 @@
 #include <vector>
 
 //Bubble sort algorithm for sortin  "n" numbers we have to sort (n - 1) times in worst case
+// Number of steps is (n-1)(n-2)
+// Time complexity is 0(n2) for bubble sort
 
 void SortInAscendingOrder(std::vector<int>& vec)
 {
